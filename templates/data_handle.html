@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Добавление данных</h1>
+<form action="" method="post" class="input_box">
+    {{ form.hidden_tag() }}
+    <p>
+        {{ form.street.label(class="input_label") }}<br>
+        {{ form.street(class="input_form") }} <br>
+        {% for error in form.street.errors %}
+            <p class="alert alert-danger" role="alert">
+                {{ error }}
+            </p>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.fill.label(class="input_label") }}<br>
+        {{ form.fill(class="input_form") }} <br>
+        {% for error in form.fill.errors %}
+            <p class="alert alert-danger" role="alert">
+                {{ error }}
+            </p>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.days.label(class="input_label") }}<br>
+        {{ form.days(class="input_form") }} <br>
+        {% for error in form.days.errors %}
+            <p class="alert alert-danger" role="alert">
+                {{ error }}
+            </p>
+        {% endfor %}
+    </p>
+    <p>{{ form.submit(type="submit", class="btn btn-primary main_btn") }}</p>
+</form>
+{% endblock %}

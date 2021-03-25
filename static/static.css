@@ -1,0 +1,128 @@
+head, body {
+	background-color: #F9F9F9;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+
+}
+
+
+h1 {
+	margin-top: 0;
+	font-size: 34px;
+	font-weight: 600;
+	font-family:  -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+.base_text {
+	font-size: 17px;
+	font-weight: 300;
+	font-family:  -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+.header {
+	padding-left: 30px;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+	height: 70px;
+	align-items: center;
+}
+
+
+.header_title {
+	font-size: 34px;
+	margin-right: 16px; 
+	font-weight: 700;
+	font-family:  -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+.header_logo {
+	display: flex;
+}
+
+
+.header_line {
+	background-color: #D9D9D9;
+	height: 1px;
+	width: 100%;
+}
+
+
+.content_holder {
+	margin: 0;
+	left: 0;
+	top: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.content {
+	padding: 75px;
+	width: 60%;
+	max-width: 1200px;
+	background-color: #FFFFFF;
+}
+
+
+.input_label {
+	font-size: 17px;
+	font-weight: 500;
+	font-family:  -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+.input_form {
+	margin-top: 10px;
+	background-color: #EBEBED;
+	width: 100%;
+	height: 40px;
+	border-radius: 10px;
+	border: none;
+	margin-bottom: 20px;
+	font-size: 14px;
+	padding-left: 15px;
+	font-family:  -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.main_btn {
+	background: rgb(115,34,255);
+	background: linear-gradient(135deg, rgba(115,34,255,1) 0%, rgba(255,7,112,1) 100%);
+	height: 40px;
+	width: 130px;
+	border: none;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-family:  -apple-system, BlinkMacSystemFont, sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.main_btn:hover {
+	background: rgb(135,66,255);
+	background: linear-gradient(135deg, rgba(135,66,255,1) 0%, rgba(255,43,133,1) 100%);
+}
+
+.main_btn:active {
+	background: rgb(101,30,223);
+	background: linear-gradient(135deg, rgba(101,30,223,1) 0%, rgba(214,6,81,1) 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
